@@ -13,7 +13,7 @@ Large language models (LLMs) face a daunting challenge due to the excessive comp
 
 
 ## How to run
-### DataSet
+### Training datasets
 The paper uses a subset of 15B tokens of the pile https://pile.eleuther.ai/ for training.
 
 ### Requirements
