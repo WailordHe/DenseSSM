@@ -25,7 +25,7 @@ pip install -r requirements.txt
 For example,if you want to pretrain the dense_gau_retnet_350m model on a single gpu,please run:
 
 ```bash
-python -m transformers.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr=<your_random_port> train.py \
+python -m torch.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr=<your_random_port> train.py \
   --model_name_or_path modeling/dense_gau_retnet_350m
   --dataset_dir <your_path_to_dataset>
   --data_cache_dir <your_path_to_data_cache_dataset>
