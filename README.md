@@ -86,3 +86,5 @@ We would like to thank the following projects for their contributions to our wor
 - The transformersscale project by Microsoft (https://github.com/microsoft/transformersscale/tree/main) for the official RetNet code.
 - The RetNet repository (https://github.com/syncdoth/RetNet) for the huggingface compatible RetNet code.
 - The LLaMA model implementation in the transformers library by Hugging Face (https://github.com/huggingface/transformers/blob/main/src/transformers/models/llama/modeling_llama.py), which we have modified for our purposes.
+- The Chinese-LLaMA-Alpaca project （https://github.com/ymcui/Chinese-LLaMA-Alpaca）for training scripts.
+
