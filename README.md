@@ -22,7 +22,7 @@ To run our code, first install requirements:
 pip install -r requirements.txt
 ```
 ### Command
-For example,if you want to pretrain the dense_gau_retnet_350m model on a single gpu,please run:
+For example,if you want to pretrain the dense_gau_retnet_350m model on a single gpu, you can run:
 
 ```bash
 python -m torch.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_addr=<your_random_port> train.py \
