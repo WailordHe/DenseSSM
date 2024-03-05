@@ -1,5 +1,5 @@
 # DenseSSM
-This is a PyTorch implementation of DenseRetNet, as described in the paper 'DenseMamba: State Space Models with Dense Hidden Connections for Efficient Large Language Models'
+This is a PyTorch implementation of DenseRetNet, as described in the paper [DenseMamba: State Space Models with Dense Hidden Connections for Efficient Large Language Models]([https://arxiv.org/abs/2301.03580](https://arxiv.org/abs/2403.00818)).
 
 ## Overview
 Large language models (LLMs) face a daunting challenge due to the excessive computational and memory requirements of the commonly used Transformer architecture. While state space model (SSM) is a new type of foundational network architecture offering lower computational complexity, their performance has yet to fully rival that of Transformers. This paper introduces DenseSSM, a novel approach to enhance the flow of hidden information between layers in SSMs. By selectively integrating shallow-layer hidden states into deeper layers, DenseSSM retains fine-grained information crucial for the final output. Dense connections enhanced DenseSSM still maintains the training parallelizability and inference efficiency. The proposed method can be widely applicable to various SSM types like RetNet and Mamba. With similar model size, DenseSSM achieves significant improvements, exemplified by DenseRetNet outperforming the original RetNet with up to 5\% accuracy improvement on public benchmarks.
@@ -72,10 +72,13 @@ Use inference_test.py to inference. This figure shows end-to-end generate speed 
 
 ## Citation
 ```
-@inproceedings{DenseMamba,
-  title={DenseMamba: State Space Models with Dense Hidden Connectionfor Efficient Large Language Models},
-  author={Wei He, Kai Han, Yehui Tang, Chengcheng Wang, Yujie Yang, Tianyu Guo, Yunhe Wang},
-  year={2024}
+@misc{he2024densemamba,
+    title={DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models},
+    author={Wei He and Kai Han and Yehui Tang and Chengcheng Wang and Yujie Yang and Tianyu Guo and Yunhe Wang},
+    year={2024},
+    eprint={2403.00818},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
 }
 ```
 
