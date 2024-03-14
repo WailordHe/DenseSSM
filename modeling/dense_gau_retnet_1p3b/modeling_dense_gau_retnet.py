@@ -875,7 +875,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
                            past_key_values=past_key_values,
                            use_cache=True,
                            return_dict=True,
-                           sequence_offset=input_ids.shape[-1]+generated.shape[-1]-1
+                           sequence_offset=input_ids.shape[-1]+generated.shape[-1]-2
                            )
             logit = outputs.logits[:, -1, :] # [batch_size, vocab_size]
             past_key_values = outputs.past_key_values
