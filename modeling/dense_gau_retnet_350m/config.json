@@ -1,7 +1,7 @@
 {
   "auto_map": {
-    "AutoModelForCausalLM": "modeling_llama.LlamaForCausalLM",
-    "AutoModelForSequenceClassification": "modeling_llama.LlamaForSequenceClassification"
+    "AutoModelForCausalLM": "modeling_dense_gau_retnet.LlamaForCausalLM",
+    "AutoModelForSequenceClassification": "modeling_dense_gau_retnet.LlamaForSequenceClassification"
   },
   "bos_token_id": 1,
   "eos_token_id": 2,
