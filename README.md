@@ -33,7 +33,9 @@ python -m torch.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --nod
   --per_device_train_batch_size 2
   --per_device_eval_batch_size 1
   --do_train
+  --num_train_epochs 1 
   --seed 1995
+  --data_seed 1995
   --lr_scheduler_type polynominal
   --learning_rate 6e-4
   --warmup_ratio 0.015
