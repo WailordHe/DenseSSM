@@ -36,7 +36,7 @@ python -m torch.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --nod
   --num_train_epochs 1 
   --seed 1995
   --data_seed 1995
-  --lr_scheduler_type polynominal
+  --lr_scheduler_type polynomial
   --learning_rate 6e-4
   --warmup_ratio 0.015
   --weight_decay 0.01
