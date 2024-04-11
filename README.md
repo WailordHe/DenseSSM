@@ -65,6 +65,10 @@ python -m torch.distributed.launch --use_env --nproc_per_node 1 --nnodes 1 --nod
 Use inference_test.py to inference. This figure shows end-to-end generate speed of generating different tokens with batch_size=6.
 [<img src="assets/speed.png" width="750" />](./assets/speed.png)
 
+# Related projects
+- An unofficial huggingface compatible pretraining checkpoints for [DenseRetNet-350MB](https://huggingface.co/jamesHD2001/DenseMamba-350M) 
+- An unofficial huggingface compatible pretraining checkpoints for [DenseRetNet-1.3B](https://huggingface.co/jamesHD2001/DenseMamba-1.3B) 
+
 # Future work
 - [x] Training code for **DenseRetNet**
 - [ ] Better inference code
